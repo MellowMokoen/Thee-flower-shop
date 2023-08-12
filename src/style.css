@@ -43,3 +43,9 @@ h3 {
     color: var(--primary-color);
     margin-top: 40px;
 }
+
+h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    
+}
