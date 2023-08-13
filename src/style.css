@@ -49,8 +49,16 @@ h3 {
     margin-top: 40px;
 }
 
-.occasions {
-    margin-top: 30px;
+.category {
+    padding: 50px;
+    margin-left: 150px;
+}
+
+.category a {
+    color: black;
+    border: 1px solid black;
+    background-color: var(--primary-color);
+    border-radius: 20px;
 }
 
 h4 {
