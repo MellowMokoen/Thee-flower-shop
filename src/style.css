@@ -45,7 +45,11 @@ h3 {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: black;
     font-weight: 700;
     
+}
+
+.specials {
+    margin-bottom: 20px;
 }
