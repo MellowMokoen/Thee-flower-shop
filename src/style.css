@@ -35,6 +35,14 @@ nav li.active a {
     color: white;
 }
 
+p {
+    color: #990033;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: fantasy;
+    text-decoration: overline;
+}
+
 .category {
     padding: 50px;
     margin-left: 150px;
@@ -64,11 +72,15 @@ h1 {
     
 }
 
-.flower-list {
+.filter {
     color: black;
-    
+    text-decoration: overline;
+}
+
+.flower-list {
+    color: #990033;
+    font-weight: bold;
     font-size: larger;
-    
     line-height: 3;
 }
 
