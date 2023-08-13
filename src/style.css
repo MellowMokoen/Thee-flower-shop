@@ -78,6 +78,13 @@ h2 {
 
 .promo-flower {
     border-radius: 10px;
+
+}
+
+.flower-name {
+    color: black;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .reduced-price {
