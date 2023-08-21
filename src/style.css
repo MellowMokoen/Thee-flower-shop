@@ -1,3 +1,11 @@
+.hero {
+    background-image: url(/images/background3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 200px;
+    
+}
+
 body {
     background-color: ffffff;
 }
@@ -87,8 +95,23 @@ h1 {
 }
 
 .btn {
-    color: var(--primary-color);
+    color: black;
+    background-color: var(--primary-color);
     margin-top: 40px;
+}
+
+.btn-dark {
+    background-color: black;
+    color: var(--primary-color);
+}
+
+.btn-light {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
 }
 
 h4 {
@@ -96,7 +119,8 @@ h4 {
 }
 
 h5 {
-    color: var(--primary-color);
+    color: black;
+    font-weight: bold;
 }
 
 
@@ -107,20 +131,9 @@ h2 {
     
 }
 
-#wedding {
-    margin-top: 30px;
-
-}
-
-.promo {
-    background-color: peachpuff;
-    margin: 150px 0 50px 0px;
-    padding: 20px 0 20px 100px;
-}
 
 .promo-flower {
     border-radius: 10px;
-
 }
 
 .flower-name {
@@ -138,18 +151,22 @@ h2 {
     color: red;
 }
 
+.categories {
+    margin-top: 80px;
+}
+
 footer {
     padding-top: 80px;
 }
 
 footer .contact-box {
-    background: black;
+    background: var(--primary-color);
     padding: 30px 120px;
     margin-bottom: 30px;
 }
 
 footer .customer {
-    color: var(--primary-color);
+    color: black;
 }
 
 footer p {
@@ -159,8 +176,8 @@ footer p {
 footer .email-link {
     text-align: center;
     text-decoration: none;
-    color: var(--primary-color);
-    font-size: 24px;
+    color: black;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -172,7 +189,7 @@ footer .contact-links a {
     margin: 0 20px;
     color: black;
     background-color: var(--primary-color);
-    font-size: 18px;
+    font-size: 25px;
     border-radius: 50%;
     padding: 10px 14px;
     transition: all 100ms ease-in-out;
