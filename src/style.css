@@ -20,6 +20,7 @@ body {
     font-size: 30px;
     padding-left: 50px;
     font-family: poppins;
+    font-weight: bold;
 }
 
 .hero .flowers {
@@ -59,17 +60,20 @@ nav li.active a {
 @media (max-width: 991px) {
 
    .logo {
-    width: 25%;
-   }
-
-   .nav li {
-      padding-left: 5px;
-      display: flex;
+    width: 20px;
    }
 
     .first-promo, .second-promo, .third-promo {
         padding: 15px;
     }
+
+.hero .flowers {
+    font-size: 70px;
+}
+
+.hero .preserving, .hero .memories {
+    font-size: 20px;
+}
 
     .promotion {
         margin: 0 30px 0 50px;
@@ -90,7 +94,6 @@ nav li.active a {
     }
 
     .btn a {
-        display: flex;
         font-size: small;
     }
 }
@@ -130,12 +133,6 @@ h1 {
     font-family: fantasy;
     font-size: large;
     
-}
-
-.filter {
-    color: black;
-    text-decoration: overline;
-    font-family: playfair display;
 }
 
 .btn a {
