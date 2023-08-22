@@ -12,7 +12,7 @@ body {
 :root {
     --primary-color : #ff9966;
     --box-shadow : 0px 2px 2px 2px rgb(10, 9, 9);
-
+--font-family : "Caprasimo";
 }
 
 .hero .preserving,.hero .memories {
@@ -27,7 +27,7 @@ body {
     color: white;
     font-size: 100px;
     padding-left: 40px;
-    font-family: Caprasimo;
+    font-family: var(--font-family);
 }
 
 nav {
@@ -96,14 +96,59 @@ nav li.active a {
     .btn a {
         font-size: small;
     }
+
+    footer {
+        padding-top: 10px!important;
+
+    }
+
+    footer .row {
+        display: block;
+        margin: 0 auto;
+        ;
+    }
+
+    footer .contact-box {
+        margin: 0!important;
+        padding: 3px!important;
+    }
+
+    footer .email-link, .contact-links a {
+        font-size: small!important;
+        margin-bottom: 10px!important;
+    }
+}
+
+.about-us {
+    background-color: rgb(252, 213, 162);
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: black!important;
+    font-size: 80px!important;
+    text-decoration: underline;
+}
+
+.m-m {
+    color: black;
+    font-size: 40px;
+    font-family: var(--font-family);
+    margin: 10px!important;
+}
+.about {
+    color: black;
+    font-family: var(--font-family);
+    margin-bottom: 20px;
 }
 
 p {
-    color: var(--primary-color);
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Caprasimo";
-    text-decoration: overline;
+    color: #ff3333;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: poppins;
+    line-height: 40px;
+    
 }
 
 .category {
@@ -206,9 +251,9 @@ footer {
     padding-top: 80px;
 }
 
-footer .contact-box {
+footer .row {
     background: var(--primary-color);
-    padding: 30px 120px;
+    padding: 10px 50px;
     margin-bottom: 30px;
 }
 
@@ -224,7 +269,7 @@ footer .email-link {
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
